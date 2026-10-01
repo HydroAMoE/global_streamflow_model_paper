@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Large data (Zenodo downloads / GRDC observations: not redistributable) ---
+google/
+metadata/
+model_data/
+metrics/
+*.tgz
+*.tar.gz
+*.zip
+*.nc
+
+# --- Source data CSVs (available from the Zenodo archive) ---
+*.csv
+*.geojson
+
+# --- Figure exceeding GitHub's 100 MB per-file limit (134 MB) ---
+results_figures/global_predicted_skill_map.eps
+
+# --- Local / editor ---
+.workbuddy/
+.DS_Store
+Thumbs.db
